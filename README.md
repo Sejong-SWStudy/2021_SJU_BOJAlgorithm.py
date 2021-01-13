@@ -66,7 +66,8 @@ solved.ac CLASS 에 있는 문제 우선
 
 ### 풀 리퀘스트(PR) 규칙
 
-- [PR 하는법]()
+- [PR 하는법](https://github.com/Sejong-SWStudy/PullRequests_Test)
+- [이해 안되면 이거도](https://chanhuiseok.github.io/posts/git-3/)
 - pr 제목은 `[2021.02.01]깃허브닉네임 문제이름 풀이`
 - 팁 추가 커밋이면 `[2021.02.01]팁 추가`
 - 문풀 성공,실패,(시간초과) 여부 Label로 달아주세요

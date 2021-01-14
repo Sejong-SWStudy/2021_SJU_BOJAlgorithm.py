@@ -3,7 +3,7 @@
  
 ## 참여 대상
 
-- BOJ(solved.ac) 실버 이하 초심자들 
+- [BOJ(solved.ac)](https://www.acmicpc.net/) 실버 이하 초심자들 
 - 학교 고급P(혹은 파이썬 수업)을 정상적으로 이수해본 적 있는 사람
 - 깃헙 계정이 있는 사람
 - 위를 만족하는 파이썬으로 알고리즘 문제풀이를 해보고 싶은 사람
@@ -45,7 +45,7 @@ solved.ac CLASS 에 있는 문제 우선
 
 [이것이 취업을 위한 코딩 테스트다 with 파이썬](https://www.hanbit.co.kr/store/books/look.php?p_code=B8945183661)
 
-[유튜브 강의](https://www.youtube.com/playlist?list=PLRx0vPvlEmdBFBFOoK649FlEMouHISo8N)
+[유튜브 강의](https://youtube.com/playlist?list=PLRx0vPvlEmdAghTr5mXQxGpHjWqSz0dgC)
  
 - 각자 오늘의 문제를 풀고 깃허브에 코드를 업로드하여 Pull request를 날린다.
 
@@ -55,9 +55,9 @@ solved.ac CLASS 에 있는 문제 우선
  ### 파일 (코드) 올리기 
  
  - 1문제에 1커밋
- - 저장 위치와 코드 이름은 `주제/이름_문제이름.py` 형식으로 올려주세요
- - 커밋메시지는 `이름_문제이름.py 추가` 형식으로
- - 수정할때는 `이름_문제이름.py 수정` 이렇게 
+ - 저장 위치와 코드 이름은 `주제/문제이름_깃헙닉네임.py` 형식으로 올려주세요
+ - 커밋메시지는 `깃헙닉네임_문제이름.py 추가` 형식으로
+ - 수정할때는 `깃헙닉네임_문제이름.py 수정` 이렇게 
 
 ### 문풀 팁 올리기
 
@@ -68,7 +68,7 @@ solved.ac CLASS 에 있는 문제 우선
 
 - [PR 하는법](https://github.com/Sejong-SWStudy/PullRequests_Test)
 - [이해 안되면 이거도](https://chanhuiseok.github.io/posts/git-3/)
-- pr 제목은 `[2021.02.01]깃허브닉네임 문제이름 풀이`
+- pr 제목은 `[2021.02.01]깃헙닉네임 문제이름 풀이`
 - 팁 추가 커밋이면 `[2021.02.01]팁 추가`
 - 문풀 성공,실패,(시간초과) 여부 Label로 달아주세요
 - pr 메시지는 풀이 아이디어 리뷰,전달하고 싶은 말,실패 이유,등을 적어주세요

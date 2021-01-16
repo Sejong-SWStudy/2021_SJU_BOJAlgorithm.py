@@ -1,4 +1,16 @@
-# 첫번째 풀이 (Accept)
+# 첫 번째 풀이
+str_input = input()
+cnt_0, cnt_1 = 0,0
+
+split_0 = str_input.split('0')
+split_1 = str_input.split('1')
+
+cnt_1 = split_0.count('') 
+cnt_0 = split_1.count('')
+
+print(min(len(split_0)-cnt_1, len(split_1)-cnt_0))
+
+# 두 번째 풀이
 str_input = input()
 cnt=0
 
@@ -10,21 +22,3 @@ if cnt%2 ==0:
   print(cnt//2)
 else:
   print(cnt//2 + 1)
-
-# 두번째 풀이(RunTime Error)
-str_input = input()
-cnt_a, cnt_b = 0,0
-
-split_a = str_input.split(a)
-
-for i in split_a:
-  if i!='':
-    cnt_a +=1
-
-split_b = str_input.split(b)
-
-for i in split_b:
-  if i!='':
-    cnt_b +=1
-
-print(min(cnt_a, cnt_b))

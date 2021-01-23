@@ -8,7 +8,7 @@ dy=[0, 1, 1, 1, 0, -1, -1, -1]
 
 while True:
   w, h = map(int, input().split())
-  #종료 조
+  #종료 조건
   if w==0 and h==0:
     break
 
@@ -29,7 +29,7 @@ while True:
           for t in range(len(dx)):
             x = pop_x + dx[t]
             y = pop_y + dy[t]
-
+            # 주변 값이 'island' 배열 범위 안에 있을 경우만 탐색
             if 0<=x<h and 0<=y<w:
                if island[x][y] == 1:
                   queue.append((x,y))

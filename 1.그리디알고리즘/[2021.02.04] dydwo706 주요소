@@ -1,0 +1,14 @@
+num = int(input())
+dis = list(map(int, input().split()))
+mon = list(map(int, input().split()))
+
+min_mon = dis[0]*mon[0]
+min = mon[0]
+for i in range (1,num-1):
+    if min > mon[i]:
+        min_mon = min_mon + mon[i] * dis[i]
+        min = mon[i]
+    else :
+        min_mon = min_mon + min * dis[i]
+
+print(min_mon)

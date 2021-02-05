@@ -1,0 +1,16 @@
+N,M = map(int, input().split())
+A=[]
+cnt=0
+
+for i in range(N):
+    A.append(int(input()))
+
+A.reverse()                  #내림차순으로 바꿔서 큰 값부터 갯수만큼 빼려 했습니다.
+
+for a in A:
+    if M >= a:               #처음에 A의 금액과 M을 비교할 때 등호를 생각 못해서 오답이 많이 났습니다.
+        cnt += int(M/a)      
+        M%=a
+
+
+print(cnt)

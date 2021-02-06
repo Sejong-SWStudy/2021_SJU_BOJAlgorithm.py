@@ -8,11 +8,11 @@ while idx<len(ST):
         print(temp[::-1], end=' ')
         temp=''
     elif ST[idx]=='<':
-        print(temp[::-1],end='')
+        print(temp[::-1], end="")
         temp=''
-        next_tag=ST.find('>', idx)
-        print(f'{ST[idx:next_tag+1]}', end='')
-        idx=next_tag
+        tag=ST.find('>', idx)
+        print(ST[idx:tag+1], end='')
+        idx=tag
     else:
         temp+=ST[idx]
     idx+=1

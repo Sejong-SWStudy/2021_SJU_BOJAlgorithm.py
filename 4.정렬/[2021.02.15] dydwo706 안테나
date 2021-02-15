@@ -4,3 +4,28 @@ home = list(map(int, input().split()))
 home.sort()
 
 print(home[(N-1)//2])
+
+
+
+
+
+
+
+
+
+N = int(input())
+home = list(map(int, input().split()))
+sum=0
+min_sub=200000
+ant = home[0]
+for a in home:
+    sum+=a   
+ave=int(sum/N)              #각 집의 평균 위치
+for a in home:
+    if abs(ave-a) < min_sub:    #해당 집에서 평균 위치까지의 거리 차가 최소 차이보다 작으면 min_sub갱신
+        min_sub = abs(ave-a)
+        ant = a
+    if abs(ave-a) == min_sub:   #거리 차가 같을 때는 위치가 작은게 출력되도록
+        if a < ant:
+            ant =a
+print(ant)
